@@ -80,6 +80,10 @@ const Section = styled.section`
         line-height: 2rem;
         font-size: 1.1rem;
         letter-spacing: 0.1;
+        
+        span{
+          color: #fc4958;
+        }
       }
 
       button{
