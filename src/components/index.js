@@ -1,0 +1,10 @@
+export {default as ScrollToTop} from "./ScrollToTop"
+export {default as Navbar} from "./Navbar"
+export {default as Hero} from "./Hero"
+export {default as Services} from "./Services"
+export {default as Portfolio} from "./Portfolio"
+export {default as Testimonials} from "./Testimonials"
+export {default as Products} from "./Products"
+export {default as NewsLetter} from "./NewsLetter"
+export {default as Footer} from "./Footer"
+

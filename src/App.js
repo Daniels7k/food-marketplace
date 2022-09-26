@@ -1,9 +1,30 @@
-import React from 'react'
+import React from "react";
+import {
+  ScrollToTop,
+  Navbar,
+  Hero,
+  Services,
+  Portfolio,
+  Testimonials,
+  Products,
+  NewsLetter,
+  Footer,
+} from "./components/index";
 
 const App = () => {
   return (
-    <div>hello</div>
-  )
-}
+    <>
+      <ScrollToTop />
+      <Navbar />
+      <Hero />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Products />
+      <NewsLetter />
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;
