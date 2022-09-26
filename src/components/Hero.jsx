@@ -37,6 +37,7 @@ const Section = styled.section`
   width: 100vw;
   position: relative;
   .background {
+    overflow: hidden;
     height: 100%;
     img {
       width: 100%;
