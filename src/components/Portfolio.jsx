@@ -68,6 +68,7 @@ const Section = styled.section`
     }
 
     button {
+      cursor: pointer;
       border: none;
       padding: 1rem 4rem;
       font-size: 1.4rem;
