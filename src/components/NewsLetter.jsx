@@ -6,7 +6,7 @@ import { TitleStyles } from "./ReusableStyles";
 const Newsletter = () => {
   return (
     <>
-      <Section>
+      <Section id="newsletter">
         <div className="title">
           <h1>
             <span>Inscreva-se</span> na nossa Newsletter

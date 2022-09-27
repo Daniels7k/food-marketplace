@@ -6,7 +6,7 @@ import Avatar from "../assets/avatar.svg";
 
 const Testimonials = () => {
   return (
-    <Section id="Testimonials">
+    <Section id="testimonials">
       <div className="container">
         <div className="title">
           <h1>

@@ -32,7 +32,7 @@ const Products = () => {
     },
   ];
   return ( 
-    <Section>
+    <Section id="products">
       <div className="title">
         <h1>
           <span>Favorito</span> O tempo todo!
