@@ -53,7 +53,7 @@ export const imageZoomEffect = css`
   img {
     transition: 0.8s ease-in-out;
     &:hover {
-      padding: 0.1vw;
+      transform: scale(1.2)
     }
   }
 `;
