@@ -41,7 +41,7 @@ const Section = styled.section`
     height: 100%;
     img {
       width: 100%;
-      height: 100%
+      height: 100%;
       object-fit: cover;
       filter: brightness(60%) 
     }
@@ -108,14 +108,35 @@ const Section = styled.section`
         border: none;
         color: white;
         font-weight: 800;
-        letter-spacing: 0.rem;
+        letter-spacing: 0.1rem;
         cursor: pointer;
         transition: 0.3s ease-in-out;
         &:hover{
           background-color: #f9c74f;
         }
       }
+    }
+  }
 
+  @media screen and (min-width: 260px) and (max-width: 1080px) { 
+    .content {
+      flex-direction: column;
+
+      .sale {
+        display: none;
+      }
+      
+      .info {
+        top: 25%;
+
+        h2 {
+          font-size: 2rem;
+        }
+
+        em {
+          width: 90%;
+        }
+      }
     }
   }
 `;

@@ -44,7 +44,6 @@ const Testimonials = () => {
               <span>Lorem Ipsum</span> Eos ab doloremque
             </p>
           </div>
-          
         </div>
       </div>
     </Section>
@@ -107,6 +106,19 @@ const Section = styled.section`
             height: 10rem;
           }
         }
+      }
+    }
+  }
+
+  @media screen and (min-width: 260px) and (max-width: 1080px) {
+    .container {
+      .title {
+        position: initial;
+        background-color: transparent;
+      }
+
+      .testimonials {
+        flex-direction: column;
       }
     }
   }
