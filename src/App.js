@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   ScrollToTop,
   Navbar,
@@ -11,7 +11,36 @@ import {
   Footer,
 } from "./components/index";
 
+import ScrollReveal from "scrollreveal";
+
+
 const App = () => {
+
+  useEffect(() => {
+    const sr = ScrollReveal({
+      origin: "top",
+      distance: "80px",
+      duration: 2000,
+      reset: false
+    })
+  
+    sr.reveal(
+      `
+      nav,
+      #home,
+      #service,
+      #portfolio,
+      #testimonials,
+      #products,
+      #newsletter,
+      .footer
+      `, {
+        opacity: 0,
+        interval: 200,
+      }
+    )
+  })
+
   return (
     <>
       <ScrollToTop />
