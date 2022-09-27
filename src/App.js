@@ -28,7 +28,7 @@ const App = () => {
       `
       nav,
       #home,
-      #service,
+      #services,
       #portfolio,
       #testimonials,
       #products,
